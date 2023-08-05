@@ -6,10 +6,23 @@ print("WELCOME TO KAUN BANEGA CROREPATI...LET'S PLAY")
 print("Hello", input("Enter Your Name\t"))
 
 # total prize for each question
-amount_won = [1000, 2000, 3000, 5000, 10000,
-			20000, 40000, 80000, 160000,
-			320000, 640000, 1250000, 2500000,
-			5000000, 10000000, 70000000]
+amount_won = [1000,
+              2000,
+              3000,
+              5000, 
+              10000,
+			  20000,
+   			  40000,
+   			  80000,
+        	  160000,
+			  320000,
+   			  640000,
+   			  1250000,
+   			  2500000,
+			  5000000,
+   			  10000000,
+   			  70000000]
+
 # Options for 50:50 lifeline
 op1 = ['	 ', '	 ', ' ', 'Srinagar',
 	'	 ', 'Cricket', '1920', '	 ', ' ',
@@ -213,7 +226,7 @@ def amount(correct_ans):
 		print("Completed 2st stage")
 	
 	elif amount_won[correct_ans-1] == 70000000:
-		print("You have won Rs 7 CRORE")
+		print("You have won Rs 7 CRORE") 
 	
 	return amount_won[correct_ans-1]
 
@@ -300,38 +313,149 @@ in 2016?',
 God?'
 ]
 
-option1 = ['Corey Anderson', 'Evil', '10', 'Srinagar', 'Hindi',
-		'Cricket', '1920', 'Bangladesh', 'polo', 'Virat Kohli',
-		'Tennis', 'Cricket', 'Australia', 'Kolkata', 'Wrestling',
-		'Bessemer', 'Sida', 'Polio', 'China', 'Thar', 'Magadh',
-		'Cataract', 'Israel', 'Tabla', 'Antonio Gramsci ',
-		'Arjan Singh', 'Parliament of India', 'Gangtok', 'Rabies',
-		' Mohd Hamid Ansari', 'P V Sindhu', 'Mahatma Gandhi', 'Hanuman']
+# option 1
 
-option2 = ['AB De Villiers', 'Humble', '9', 'Jaisalmer', 'Palauan',
-		'Football', '1928', 'Kenya', 'Cricket', 'Yuvraj Singh',
-		'Cricket', 'Football', 'West Indies', 'Mumbai', 'Swimming',
-		'Rane Laennec', 'Tridax', 'Malaria', 'Taiwan', 'Sahara',
-		'Mahishmati', 'Gastric', 'Jordan', 'Santoor', 'Che Guevera',
-		'Pratap Chandra Lal', 'Tractor', 'Aizawl', 'Tetanus', ' I K Gujral',
-		'Aparna Balan', 'Swami Vivekananda ', 'Vishnu']
+option1 = ['Corey Anderson',					#q1
+           'Evil',								#q2
+           '10',								#q3
+           'Srinagar', 							#q4
+           'Hindi',								#q5
+		   'Cricket',							#q6
+ 		   '1920', 								#q7
+ 		   'Bangladesh', 						#q8
+ 		   'polo', 								#q9
+ 		   'Virat Kohli',						#q10
+		   'Tennis',							#q11
+ 		   'Cricket', 							#q12
+ 		   'Australia',							#q13
+ 		   'Kolkata',							#q14
+ 		   'Wrestling',							#q15
+		   'Bessemer',							#q16
+ 		   'Sida', 								#q17
+ 		   'Polio', 							#q18
+ 		   'China', 							#q19
+ 		   'Thar', 								#q20
+ 		   'Magadh',							#q21
+		   'Cataract',							#q22
+ 		   'Israel', 							#q23
+ 		   'Tabla', 							#q24
+ 		   'Antonio Gramsci ',					#q25
+		   'Arjan Singh',						#q26
+ 		   'Parliament of India', 				#q27
+ 		   'Gangtok', 							#q28
+ 		   'Rabies',							#q29
+		   ' Mohd Hamid Ansari',				#q30	
+ 		   'P V Sindhu', 						#q31
+ 		   'Mahatma Gandhi', 					#q32
+ 		   'Hanuman'							#q33
+	      ]			
 
-option3 = ['Shahid Afridi', 'Dishonest', '7', 'Amritsar', 'Sindhi',
-		'Badminton', '1972', 'Pakistan', 'Hockey', 'MS Dhoni',
-		'Hockey', 'Hockey', 'South Africa', 'Delhi', 'Boxing',
-		'Henry Becquarrel', 'Tephrosia', 'Dermatitis', 'Japan',
-		'Gobi', 'Kalinga', 'Bypass', 'Saudi Arabia', 'Mridangam',
-		' Leon Trotsky ', 'Subroto Mukarjee', 'Red Fort', 'darjeeling',
-		'Japanese Encephalitis', 'Mohd Hidayatullah ', 'Saina Nehwal',
-		'Rabindranath Tagore ', 'Shiva']
+# option 2			
 
-option4 = ['Rohit Sharma', 'Miserly', '8', 'Udhampur', 'English', 'Hockey',
-		'1976', 'Australia', 'Football', 'Zaheer Khan', 'Polo', 'Tennis',
-		'India', 'Jaipur', 'Running', 'None of these', 'Indigofera',
-		'Cholera', 'Australia', 'None of these', 'Badami', 'Debridement',
-		'Qatar', 'Dafli', 'Vladimir Lenin', 'Aspy Engineer', 'Mangalyaan',
-		'Kohima', 'Plague', 'Zakir Hussain', 'Jwala Gutta', 'Mother Teresa',
-		'Kamadeva']
+option2 = [  'AB De Villiers',					#q1
+			 'Humble',							#q2
+			 '9',								#q3
+			 'Jaisalmer',						#q4
+			 'Palauan',							#q5
+			 'Football',						#q6
+			 '1928',							#q7
+			 'Kenya',							#q8
+			 'Cricket',							#q9
+			 'Yuvraj Singh',					#q10
+			 'Cricket',							#q11
+			 'Football',						#q12
+			 'West Indies',						#q13
+			 'Mumbai',							#q14
+			 'Swimming',						#q15
+			 'Rane Laennec',					#q16
+			 'Tridax',							#q17
+			 'Malaria',							#q18
+			 'Taiwan',							#q19
+			 'Sahara',							#q20
+			 'Mahishmati',						#q21
+			 'Gastric',							#q22
+			 'Jordan',							#q23
+			 'Santoor',							#q24
+			 'Che Guevera',						#q25
+			 'Pratap Chandra Lal',				#q26
+			 'Tractor',							#q27
+			 'Aizawl',							#q28
+			 'Tetanus',							#q29
+			 'I K Gujral',						#q30
+			 'Aparna Balan',					#q31
+			 'Swami Vivekananda',				#q32
+			 'Vishnu'							#q33
+			]			
+
+option3 = [   'Shahid Afridi',					#q1
+			  'Dishonest',						#q2
+			  '7',								#q3
+			  'Amritsar',						#q4
+			  'Sindhi',							#q5
+			  'Badminton',						#q6
+			  '1972',							#q7
+			  'Pakistan',						#q8
+			  'Hockey',							#q9
+			  'MS Dhoni',						#q10
+			  'Hockey',							#q11
+			  'Hockey',							#q12
+			  'South Africa',					#q13
+			  'Delhi',							#q14
+			  'Boxing',							#q15
+			  'Henry Becquarrel',				#q16
+			  'Tephrosia',						#q17
+			  'Dermatitis',						#q18
+			  'Japan',							#q19
+			  'Gobi',							#q20
+			  'Kalinga',						#q21
+			  'Bypass',							#q22
+			  'Saudi Arabia',					#q23
+			  'Mridangam',						#q24
+			  'Leon Trotsky',					#q25
+			  'Subroto Mukarjee',				#q26
+			  'Red Fort',						#q27
+			  'Darjeeling',						#q28
+			  'Japanese Encephalitis',			#q29
+			  'Mohd Hidayatullah',				#q30
+			  'Saina Nehwal',					#q31
+			  'Rabindranath Tagore',			#q32
+			  'Shiva'							#q33
+			]
+
+option4 = [   'Rohit Sharma',					#q1
+			  'Miserly',						#q2
+			  '8',								#q3
+			  'Udhampur',						#q4
+			  'English',						#q5
+			  'Hockey',							#q6
+			  '1976',							#q7
+			  'Australia',						#q8
+			  'Football',						#q9
+			  'Zaheer Khan',					#q10
+			  'Polo',							#q11
+			  'Tennis',							#q12
+			  'India',							#q13
+			  'Jaipur',							#q14
+			  'Running',						#q15
+			  'None of these',					#q16
+			  'Indigofera',						#q17
+			  'Cholera',						#q18
+			  'Australia',						#q19
+			  'None of these',					#q20
+			  'Badami',							#q21
+			  'Debridement',					#q22
+			  'Qatar',							#q23
+			  'Dafli',							#q24
+			  'Vladimir Lenin',					#q25
+			  'Aspy Engineer',					#q26
+			  'Mangalyaan',						#q27
+			  'Kohima',							#q28
+			  'Plague',							#q29
+			  'Zakir Hussain',					#q30
+			  'Jwala Gutta',					#q31
+			  'Mother Teresa',					#q32	
+			  'Kamadeva'						#q33
+			]
 
 options = [option1, option2, option3, option4]
 
@@ -488,5 +612,3 @@ while(wrong != True):
 	options = [option1, option2, option3, option4]
 	
 print("Your winning amount is Rs. ", total_amt)
-
-
